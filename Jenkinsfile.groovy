@@ -4,7 +4,7 @@ node {
 
     }
     stage ("Build Image"){
-        sh "packer version"
+        sh "Packer version"
         
     }
     stage ("Send Notifications to Slack"){
