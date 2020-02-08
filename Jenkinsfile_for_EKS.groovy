@@ -1,6 +1,6 @@
 node{
     stage("pull repo"){
-        git 'https://github.com/bkarakas/terraform-iaac-eks-burak.git'
+        git 'https://github.com/azizasalieva95/Jenkins_Pipelines.git'
 
     }
     stage("stage1"){
